@@ -1,0 +1,9 @@
+.asside {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	max-width: 25%;
+	height: 100vh;
+}

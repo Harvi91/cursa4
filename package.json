@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1", 
-    "scss": "node-sass assest/source/main.scss  assest/style/main.css",
-    "start": "npm run scss && node-sass assest/source/main.scss -w assest/style/main.css"
+    "scss": "node-sass assest/source/style.scss  assest/style/style.css",
+    "start": "npm run scss && node-sass assest/source/style.scss -w assest/style/style.css"
   },
   "repository": {
     "type": "git",
