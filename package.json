@@ -1,0 +1,24 @@
+{
+  "name": "cursa4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "scss": "node-sass assest/source/scss/main.scss  assest/style/main.css",
+    "start": "npm run scss && node-sass assest/source/scss/main.scss -w assest/style/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harvi91/cursa4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harvi91/cursa4/issues"
+  },
+  "homepage": "https://github.com/Harvi91/cursa4#readme",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
