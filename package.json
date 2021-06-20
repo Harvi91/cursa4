@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1", 
     "scss": "node-sass assest/source/scss/main.scss  assest/style/main.css",
-    "start": "npm run scss && node-sass assest/source/scss/main.scss -w assest/style/main.css"
+    "start": "npm run scss && node-sass assest/source/main.scss -w assest/style/main.css"
   },
   "repository": {
     "type": "git",
